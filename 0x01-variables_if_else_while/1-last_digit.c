@@ -3,9 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
- * description: print random numbers with string.
+ * main - print random numbers
  *
  * Return: (0)
  *
@@ -18,7 +16,7 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	x = n % 10;
-	printf("last digit of %d is %d\n", n, x);
+	printf("last digit of %d is %d", n, x);
 	if (x > 5)
 	{
 		printf("and is greater than 5");
