@@ -8,9 +8,13 @@
  */
 int main(void)
 {
-	for (int i = 'a'; i <  'z'; i++)
-		putchar("%c", i);
+	char ch = 'a';
 
-	putchar("\n");
+	while (ch <= 'z')
+	{
+		putchar("%c ", ch)
+			ch++;
+	}
+	putchar ("\n");
 	return (0);
 }
