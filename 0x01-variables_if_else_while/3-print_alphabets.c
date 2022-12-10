@@ -9,6 +9,7 @@
 int main(void)
 {
 	int ch = 'a';
+	int ch = 'A';
 
 	/**
 	 * putchar("lowercase characters")
@@ -17,7 +18,6 @@ int main(void)
 	{
 		putchar("%C", ch);
 	}
-	int ch = 'A';
 
 	/**
 	 * putchar("uppercase letters")
