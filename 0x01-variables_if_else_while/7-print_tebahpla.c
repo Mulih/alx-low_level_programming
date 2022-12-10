@@ -5,9 +5,9 @@
  *
  * REeturn: 0
  */
-in main(void)
+int main(void)
 {
-	int ch = i;
+	int i;
 
 	for (i = 'z'; i > 'a'; i++)
 	{
