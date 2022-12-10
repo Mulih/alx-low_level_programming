@@ -16,7 +16,7 @@ int main(void)
 	 */
 	for (ch = 'a'; ch <= 'Z'; ch++)
 	{
-		putchar("%C", ch);
+		putchar("%C");
 	}
 
 	/**
@@ -24,7 +24,7 @@ int main(void)
 	 */
 	for (c = 'A'; c <= 'Z'; c++)
 	{
-		putchar("%c", c);
+		putchar("%C");
 	}
 	putchar('\n');
 	return (0);
