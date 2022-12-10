@@ -8,8 +8,8 @@
  */
 int main(void)
 {
-	int num n;
-	int num x;
+	int num[] n;
+	int num[] x;
 
 	x = (n % 10);
 
