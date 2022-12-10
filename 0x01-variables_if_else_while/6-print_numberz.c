@@ -10,10 +10,14 @@ int main(void)
 {
 	int n;
 
-	for (n = 0; n <= 10; n++)
+	n = 0;
+	putchar(n);
 	{
-		putchar(n + '0');
-	}
-	putchar('\n');
+		if (x = 0; x <= 10; x++)
+		{
+			putchar(n + '0');
+		}
+
+
 	return (0);
 }
