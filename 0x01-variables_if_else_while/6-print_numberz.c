@@ -9,10 +9,11 @@ int main(void)
 {
 	int n;
 
+	n = 0;
 
-	for (n = '0'; n <= '10'; n++)
+	for (n < 1; n < 10; n++)
 	{
-		if (n < '10')
+		if (n < 10)
 		{
 			putchar('n');
 		}
