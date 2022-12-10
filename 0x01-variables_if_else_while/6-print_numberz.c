@@ -15,7 +15,7 @@ int main(void)
 	{
 		if (n < 10)
 		{
-			putchar('%d', n);
+			putchar(%d);
 		}
 	}
 
