@@ -8,16 +8,12 @@
  */
 int main(void)
 {
-	int num[] n;
-	int num[] x;
+	int n;
 
-	x = (n % 10);
-
-	for (x = 0; x <= 10; x++)
+	for (n = 0; n <= 10; n++)
 	{
-		putchar(num);
+		putchar(n + '0');
 	}
-
 	putchar('\n');
 	return (0);
 }
