@@ -7,13 +7,13 @@
  */
 int main(void)
 {
-	int num = 'a';
+	int ch = 'a';
 
 	a = 0;
 
-	for (a = 0; a < 10; a++)
+	for (ch = 0; ch <= 10; ch++)
 	{
-		putchar(num);
+		putchar(ch);
 	}
 
 	putchar('\n');
