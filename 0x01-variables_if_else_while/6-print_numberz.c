@@ -8,9 +8,12 @@
  */
 int main(void)
 {
-	int num = (0);
+	int num n;
+	int num x;
 
-	for (num = 0; num <= 10; num++)
+	x = (n % 10);
+
+	for (x = 0; x <= 10; x++)
 	{
 		putchar(num);
 	}
