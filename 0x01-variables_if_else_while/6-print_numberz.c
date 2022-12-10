@@ -9,7 +9,7 @@ int main(void)
 {
 	int num = 'n';
 
-	int n = '%d';
+	int n = ('%d');
 
 	for (n = 0; n <= 10; n++)
 	{
