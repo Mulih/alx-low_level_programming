@@ -13,12 +13,13 @@ int main(void)
 	/**
 	 * putchar("lowercase characters")
 	 */
-	for (ch = 'a'; ch <= 'Z'; ch++)
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		putchar(ch);
 	}
 
-	int ch = 'A';
+	ch = 'A';
+
 	/**
 	 * putchar("uppercase letters")
 	 */
