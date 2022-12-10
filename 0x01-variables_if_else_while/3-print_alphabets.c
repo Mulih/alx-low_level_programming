@@ -8,11 +8,22 @@
  */
 int main(void)
 {
-	for (int x = 'A'; x <= 'Z'; x++)
-	{
-		int lower_ x = tolower(x);
+	char ch;
 
-		putchar(lower_x);
+	/**
+	 * putchar("lowercase characters")
+	 */
+	for (ch = 'a'; ch <= 'Z'; ch++)
+	{
+		putchar("%C ", ch);
+	}
+
+	/**
+	 * putchar("uppercase letters")
+	 */
+	for (ch = 'A'; ch <= 'Z'; ch++)
+	{
+		putchar("%c ", ch);
 	}
 	putchar('\n');
 	return (0);
