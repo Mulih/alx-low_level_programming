@@ -11,9 +11,10 @@ int main(void)
 
 	for (ch = 0; ch <= 10; ch++)
 	{
-		if (ch == 0 && ch <= 10)
+		while (ch == 0 && ch <= 10)
 		{
 			putchar(ch);
+			ch++;
 		}
 	}
 	putchar('\n');
