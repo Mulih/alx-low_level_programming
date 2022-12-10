@@ -9,9 +9,9 @@ int main(void)
 {
 	int ch = 'i';
 
-	for (ch = 0; ch <= 10; ch++)
+	for (ch = 0; ch <= 10)
 	{
-		while (ch == 0 && ch <= 10)
+		while (ch == 0 && ch <= 10; ch++)
 		{
 			putchar(ch);
 			ch++;
