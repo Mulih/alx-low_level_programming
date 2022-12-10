@@ -9,13 +9,13 @@ int main(void)
 {
 	int num = 'n';
 
-	int n = '0';
+	int n = '%d';
 
 	for (n = 0; n <= 10; n++)
 	{
 		if (n < 10)
 		{
-			putchar(num);
+			putchar(n);
 		}
 	}
 
