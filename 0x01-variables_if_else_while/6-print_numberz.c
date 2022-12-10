@@ -9,7 +9,7 @@ int main(void)
 {
 	int n;
 
-	int n = ('n' + 0);
+	n = ('n' + 0);
 
 	for (n = 0; n <= 10; n++)
 	{
