@@ -9,7 +9,7 @@
 int main(void)
 {
 	int ch = 'a';
-	int c = 'A';
+	int ch = 'A';
 
 	/**
 	 * putchar("lowercase characters")
@@ -22,9 +22,9 @@ int main(void)
 	/**
 	 * putchar("uppercase letters")
 	 */
-	for (c = 'A'; c <= 'Z'; c++)
+	for (ch = 'A'; ch <= 'Z'; ch++)
 	{
-		putchar(c);
+		putchar(ch);
 	}
 	putchar('\n');
 	return (0);
