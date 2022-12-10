@@ -8,13 +8,14 @@
 int main(void)
 {
 	int ch = 'i';
+
 	i = 0;
-	while (ch == 0; ch <= 10; ch++);
-		{
-			putchar(ch);
-			ch++;
-		}
-	}
+
+	do {
+		putchar(i);
+		i++;
+	} while (i < 10);
+
 	putchar('\n');
 	return (0);
 }
