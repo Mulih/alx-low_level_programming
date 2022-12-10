@@ -8,7 +8,6 @@
 int main(void)
 {
 	int ch = 'i';
-	
 	i = 0;
 	while (ch == 0; ch <= 10; ch++);
 		{
