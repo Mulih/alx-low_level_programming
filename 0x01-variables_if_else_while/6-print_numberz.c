@@ -11,7 +11,7 @@ int main(void)
 
 	int b = 10;
 
-	for (a = 0; a < b);
+	if (a = 0; a < b);
 	{
 		do {
 			putchar(a);
