@@ -8,22 +8,23 @@
  */
 int main(void)
 {
-	char ch;
+	int ch 'a';
 
 	/**
 	 * putchar("lowercase characters")
 	 */
 	for (ch = 'a'; ch <= 'Z'; ch++)
 	{
-		putchar("%C ", ch);
+		putchar("%C", ch);
 	}
 
 	/**
 	 * putchar("uppercase letters")
 	 */
+	int ch 'A';
 	for (ch = 'A'; ch <= 'Z'; ch++)
 	{
-		putchar("%c ", ch);
+		putchar("%c", ch);
 	}
 	putchar('\n');
 	return (0);
