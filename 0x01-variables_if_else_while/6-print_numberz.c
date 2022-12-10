@@ -8,9 +8,8 @@
 int main(void)
 {
 	int a = 0;
-	int b = 10;
 
-	if (a = 0; a < b; a++)
+	for (a = 0; a < b; a++)
 	{
 		putchar(a);
 	}
