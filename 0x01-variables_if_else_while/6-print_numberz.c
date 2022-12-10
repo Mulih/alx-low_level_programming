@@ -8,8 +8,9 @@
 int main(void)
 {
 	int ch = 'i';
-
-	while (ch == 0 && ch <= 10 && ch++);
+	
+	i = 0;
+	while (ch == 0; ch <= 10; ch++);
 		{
 			putchar(ch);
 			ch++;
