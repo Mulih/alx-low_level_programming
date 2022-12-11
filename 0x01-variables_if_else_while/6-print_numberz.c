@@ -11,12 +11,14 @@ int main(void)
 	int n;
 
 	n = 0;
-	putchar(n + '0');
+
+	for (n = 0; n < 10; n++)
 	{
-		for (n = 0; n < 10; n++)
+		if (n != 10)
 		{
-			putchar(n + '1');
+			putchar(n + '0');
 		}
 	}
+	putchar('\n');
 	return (0);
 }
