@@ -11,13 +11,12 @@ int main(void)
 	int n;
 
 	n = 0;
-	putchar(n);
+	putchar(n + '0');
 	{
-		if (x = 0; x <= 10; x++)
+		for (n = 0; n < 10; n++)
 		{
-			putchar(n + '0');
+			putchar(n + '1');
 		}
-
-
+	}
 	return (0);
 }
