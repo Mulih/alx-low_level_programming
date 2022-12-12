@@ -8,24 +8,24 @@
  */
 int main(void)
 {
-	int a, b;
-	int c, d, e, f;
+	int n1, n2;
+	int a, b, c, d;
 
-	for (a = 0; a < 100; a++)
+	for (n1 = 0; n1 <= 99; n1++)
 	{
-		c = a / 10;
-		b = a % 10;
+		a = n1 / 10;
+		b = n1 % 10;
 
-		for (b = 0; b < 100; b++)
+		for (n2 = n1 + 1; n2 <= 99; n2++)
 		{
-			e = b / 10;
-			f = b % 10;
+			c = n2 / 10;
+			d = n2 % 10;
+			putchar(a + '0');
+			putchar(b + '0');
+			putchar(' ');
 
-			if (c < e || (c == e && d < f))
+			if (a < d || (a == c && b < d))
 			{
-				putchar(c + '0');
-				putchar(d + '0');
-				putchar(' ');
 				putchar(e + '0');
 				putchar(f + '0');
 
