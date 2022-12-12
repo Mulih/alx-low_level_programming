@@ -3,15 +3,15 @@
 /**
  * main - a program that prints the lowercase alphabet in reverse.
  *
- * REeturn: 0
+ * Return: 0
  */
 int main(void)
 {
-	int i;
+	int ch;
 
-	for (i = 'z'; i => 'a'; i++)
+	for (ch = 'z'; ch > 'a'; ch--)
 	{
-		putchar(i + 'z');
+		putchar(ch);
 	}
 
 	putchar('\n');
