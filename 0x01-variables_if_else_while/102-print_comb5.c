@@ -8,32 +8,34 @@
  */
 int main(void)
 {
-	int n1, n2;
 	int a, b, c, d;
 
-	for (n1 = 0; n1 <= 99; n1++)
+	for (a = 48; a <= 57; a++)
 	{
-		a = n1 / 10;
-		b = n1 % 10;
-
-		for (n2 = n1 + 1; n2 <= 99; n2++)
+		for (b = 48; b <= 57; b++)
 		{
-			c = n2 / 10;
-			d = n2 % 10;
-			putchar(a + '0');
-			putchar(b + '0');
-			putchar(' ');
-
-			if (a < d || (a == c && b < d))
+			for (c = 48; c <= 57; c++)
 			{
-				putchar(c + '0');
-				putchar(d + '0');
-
-				if (!(c == 9 && d == 8))
+				for (d = 48; d <= 57; d++)
 				{
-					putchar(',');
-					putchar(' ');
-					continue;
+					if (((a + d) > (a + b) && c >= a) || a < c)
+					{
+						putchar(a);
+						putchar(b);
+						putchar(44);
+						putchar(c);
+						putchar(d);
+
+					if (a + b + c + d == 227 && a == 48)
+					{
+					break;
+					}
+					else
+					{
+						putchar(44);
+						putchar(32);
+					}
+					}
 				}
 			}
 		}
@@ -41,3 +43,4 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
+
