@@ -26,8 +26,8 @@ int main(void)
 
 			if (a < d || (a == c && b < d))
 			{
-				putchar(e + '0');
-				putchar(f + '0');
+				putchar(c + '0');
+				putchar(d + '0');
 
 				if (!(c == 9 && d == 8))
 				{
