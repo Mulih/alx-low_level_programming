@@ -8,8 +8,8 @@
  */
 int main(void)
 {
-	int a, b;
-	int c, d;
+	int n1, n2;
+	int a, b, c, d;
 
 	for (n1 = 0; n1 <= 99; n1++)
 	{
@@ -23,7 +23,6 @@ int main(void)
 			putchar(a + '0');
 			putchar(b + '0');
 			putchar(' ');
-			continue;
 
 			if (a < d || (a == c && b < d))
 			{
