@@ -24,7 +24,7 @@ int main(void)
 			putchar(b + '0');
 			putchar(' ');
 
-			if (a < d || (a == c && b < ))
+			if (a < d || (a == c && b < d))
 			{
 				putchar(c + '0');
 				putchar(d + '0');
