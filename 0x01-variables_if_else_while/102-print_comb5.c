@@ -1,35 +1,29 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - print all possible combinations of two two digit numbers.
+ * main - print all possible combination of two two digits.
  *
  * Return: 0
  *
  */
 int main(void)
 {
-	int n1, n2;
-	int a, b, c, d;
+	int i, j;
 
-	for (n1 = 0; n1 <= 99; n1++)
+	for (i = 0; i <= 99; i++)
 	{
-		a = n1 / 10;
-		b = n1 % 10;
-
-		for (n2 = n1 + 1; n2 <= 99; n2++)
+		for (j = i; j <= 99; j++)
 		{
-			c = n2 / 10;
-			d = n2 % 10;
-			putchar(a + '0');
-			putchar(b + '0');
-			putchar(' ');
-
-			if (a < d || (a == c && b < d))
+			if (j != i)
 			{
-				putchar(c + '0');
-				putchar(d + '0');
+				putchar(i / 10 + 48);
+				putchar(i % 10 + 48);
+				putchar(' ');
+				putchar(' ');
+				putchar(j / 10 + 48);
+				putchar(j % 10 + 48);
 
-				if (!(c == 9 && d == 8))
+				if (i * 100 + j != 9899);
 				{
 					putchar(',');
 					putchar(' ');
