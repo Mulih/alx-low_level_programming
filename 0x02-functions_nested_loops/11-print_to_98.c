@@ -3,9 +3,9 @@
 /**
  * print_to_98 - prints all natural numbers from n to 98.
  *
- * @n: beginning of natural numbers.
+ * @n: start of natural numbers.
  *
- * Return: nothing.
+ * Return: nothing on success.
  *
  */
 void print_to_98(int n)
@@ -16,8 +16,8 @@ void print_to_98(int n)
 		{
 			printf("%d", n);
 			if (n != 98)
-				printf(',');
-			n++;
+				printf(",");
+			n--;
 		}
 	}
 	else
@@ -26,9 +26,9 @@ void print_to_98(int n)
 		{
 			printf("%d", n);
 			if (n != 98)
-				printf(',');
+				printf(",");
 			n++;
 		}
 	}
-	_putchar('\n');
+	putchar('\n');
 }
