@@ -3,7 +3,7 @@
 /**
  * jack_bauer - print every minute of Jack Bauer's day, \
  starting from 0:00 to 23:59.
- * 
+ *
  * return: nothing
  */
 void jack_bauer(void)
