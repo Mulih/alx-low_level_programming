@@ -11,8 +11,9 @@
  */
 int _isdigit(int c)
 {
-	if (c >= 48 && c <= 58)
+	int start = 48, stop = 57;
+
+	if (c >= start && c <= stop)
 		return (1);
-	else
-		return (0);
+	return (0);
 }
