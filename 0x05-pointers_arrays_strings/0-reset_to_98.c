@@ -1,5 +1,5 @@
 /**
- * reset_to_98 - takes the pointers to an int as parametersand updates the \ value.
+ * reset_to_98 - takes the pointers to an int as parameters
  * @n: number to be updated.
  *
  * Return: nothing on success.
