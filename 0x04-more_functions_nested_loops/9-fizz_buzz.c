@@ -1,9 +1,28 @@
 #include <stdio.h>
 
 /**
- * main - fizz-buzz test
+ * main - Fizz-Buzz test
  *
  * Return: 0
  */
-int main(void)
 
+int main(void)
+{
+	int start = 1, stop = 100;
+
+	while (start <= 100)
+	{
+		if (start % 3 == 0)
+			printf("Fizz");
+
+		if (start % 5 == 0)
+			printf("Buzz");
+
+		if (start % 3 != 0 && start % 5 != 0)
+			printf("%d", start);
+		
+		putchar(start == stop ? '\n' : ' ');
+		start++;
+	}
+	return (0);
+}
