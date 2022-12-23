@@ -12,7 +12,7 @@ char *string_toupper(char *d)
 
 	while (d[i])
 	{
-		for (d[i] >= 97 && d[i] <= 122)
+		if (d[i] >= 97 && d[i] <= 122)
 			d[i] = d[i] - 32;
 		i++;
 	}
