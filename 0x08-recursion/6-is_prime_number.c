@@ -46,7 +46,9 @@ int helperFunction(int num, int i)
 	{
 		return (i);
 	}
-}#include "main.h"
+}
+
+#include "main.h"
 /**
  * helperFunction - return 0 or 1
  * @num: number being checked
