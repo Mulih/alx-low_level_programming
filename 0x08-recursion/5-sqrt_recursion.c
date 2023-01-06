@@ -5,7 +5,7 @@
  * @pSqrt: possible sqrt of number
  * Return: sqrt of number ot -1 for error
  */
-int helperFunction (int num, in pSqrt)
+int helperFunction (int num, int pSqrt)
 {
 	if ((pSqrt * pSqrt) == num)
 	{
@@ -32,5 +32,5 @@ int _sqrt_recursion(int n)
 	if (n < 0)
 		return (-1);
 	else
-		return (helperfunction(n, 0));
+		return (helperFunction(n, 0));
 }

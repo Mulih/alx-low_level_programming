@@ -2,8 +2,10 @@
 
 /**
  * _pow_recursion - returns the value of x to the power of y
- * #x: number
+ * @x: number
  * @y: power
+ *
+ * Return: x to the power of y
  * -1 if x < 0
  */
 int _pow_recursion(int x, int y)
