@@ -1,4 +1,4 @@
-#include <starg.h>
+#include <stdarg.h>
 /**
  * sum_them_all - returns the sum of all param
  * @n: number of arguments to be summed
@@ -15,7 +15,7 @@ int sum_them_all(const unsigned int n, ...)
 
 	va_start(arglist, n);
 
-	for (i = 0; i < n; I++)
+	for (i = 0; i < n; i++)
 	{
 		sum += va_arg(arglist, int);
 	}
