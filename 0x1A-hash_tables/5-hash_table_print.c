@@ -26,7 +26,7 @@ void hash_table_print(const hash_table_t *ht)
 			while ((tmp = tmp->next) != NULL)
 			{
 				printf(", ");
-				printf("'%s: '%'", tmp->key, tmp->value);
+				printf("'%s: '%s'", tmp->key, tmp->value);
 			}
 
 			toggle = 1;

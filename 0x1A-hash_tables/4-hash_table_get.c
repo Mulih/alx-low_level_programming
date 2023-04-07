@@ -7,7 +7,7 @@
  *
  * return: value associated with key or NULL if key not found
  */
-char *hash_table_get(const hash_table_T *ht, const char *key)
+char *hash_table_get(const hash_table_t *ht, const char *key)
 {
 	hash_node_t *tmp;
 	unsigned long int id;

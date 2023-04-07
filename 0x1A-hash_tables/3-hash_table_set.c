@@ -1,4 +1,4 @@
-#include "has_tables.h"
+#include "hash_tables.h"
 
 /**
  * hash_table_Set - Adds an element to the hash table
